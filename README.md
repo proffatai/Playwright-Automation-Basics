@@ -58,4 +58,15 @@ test.afterAll( async()=>{
    <br>
 })
   <br>
-  
+
+## Finding elements in playwright
+- Locators are strategies or methods used to find elements on a web page, such as by ID, class name, or XPath. 
+- Selectors, on the other hand, are expressions or patterns used within these strategies to specify the exact element to be selected, such as CSS selectors or XPath expressions.
+
+We can use page.locator('#idname'), page.locator('.classname'), page.locator('[attrName="value"]')
+<br>
+To find an element on the webpage in playwright: `page.locator(selector)`
+<br>
+Locator is a class in playwright library
+<br>
+Search for playwright locators to learn more or playwright selectors 
